@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "John: Your alive Jane\nJane: Honey its so good to see your okay\nJohn: why aren't the kids with you, i found timmy in the basement. And i found Tom out the back\nJane: i needed to make sure i was safe, i couldnt find them and i wasnt about to die trying\nJohn: Tom is dead,he is fucking dead and you are hiding up here, you were meant to keep them safe.\nJane:Im not their mother, im just the step-mum. why would i risk my life for them.\nJohn: I'm done with u jane, we are over.I'm grabbing Timmy and we are out of here.\nJane: you'r not leaving me john, not now not ever.\"pulls gun on John\"\nJohn: jane were did u get the gun from, dont do something crazy\nJane: Your not leaving\n[[Jane Im leaving |leaving]]\n[[ pull gun on Jane |gun]]",
+		"position": {
+			"x": 300,
+			"y": 196
+		},
+		"colorID": 0
+	},
+	{
+		"title": "leaving",
+		"tags": "",
+		"body": "Jane: if u leave John, ill shoot.\nJohn: no you won't Jane, I'm leaving and never coming back\n\" Jane shoots john in the back\"\nJane: why did u make me do this John\nJohn: \" cough blood\" please Jane keep Timmy safe\n\"The light leaves Jane's eyes when she sees what she has done \"\nJane: you said Timmys in the basement right. you took yourself away from me, so I'm going to take Timmy away from u\n[[ answer: |Death]]",
+		"position": {
+			"x": 512,
+			"y": -53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "gun",
+		"tags": "",
+		"body": "John:Put the gun down, we can talk about this Jane \nJane: John we are either leaving together or one of us isnt leaving \nJohn: What is wrong with u, u didnt look after the kids.\nJohn: there is no chance Im leaving with u\n\"Jane starts crying and aims the gun at John\"\nJane: this is your last chance John we are leaving together\nJane: or your not leaving at all\n[[ Kill Jane |Jane]]",
+		"position": {
+			"x": 39,
+			"y": 53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Death",
+		"tags": "",
+		"body": "<< Shoot>>\n\"Jane crys\"",
+		"position": {
+			"x": 632,
+			"y": -273
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Jane",
+		"tags": "",
+		"body": "<<Jane>>\nshoot",
+		"position": {
+			"x": -322,
+			"y": 29
+		},
+		"colorID": 0
+	}
+]

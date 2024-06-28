@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "John: Son your safe\nTimmy: Dad u came back to save us\nJohn: are u bitten, is everything okay\nTimmy: yes im safe, ive been hiding down here since the start\n[[ Wheres mum|yes]]\n[[Wheres your older Brother|No]]",
+		"position": {
+			"x": 300,
+			"y": 196
+		},
+		"colorID": 0
+	},
+	{
+		"title": "yes",
+		"tags": "",
+		"body": "Timmy: Last i saw Mum she went upstairs, looking for tom\nJohn: Ill go look for her now, are u safe to stay here. till everything is sorted\nTimmy: yes its safe here",
+		"position": {
+			"x": 26,
+			"y": 9
+		},
+		"colorID": 0
+	},
+	{
+		"title": "No",
+		"tags": "",
+		"body": "Timmy: I saw him go out the back to lock the back gate so no one could get in\nJohn: Ill go find him now to make sure he is safe, are u safe to stay here to everything is safe\nTimmy: yes its safe here",
+		"position": {
+			"x": 540,
+			"y": 15
+		},
+		"colorID": 0
+	}
+]

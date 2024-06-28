@@ -1,0 +1,32 @@
+[
+	{
+		"title": "start",
+		"tags": "",
+		"body": "John: Son your alive\nTimmy: Dad you came back to save us \nJohn: are u ok,have u been bitten?\nTimmy: No im safe for now, thats why i hid downstairs. behind the boxes \n[[ Wheres your mother |Mother]]\n[[ Wheres your older Brother |Older Brother]]",
+		"position": {
+			"x": 907,
+			"y": 425
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Mother",
+		"tags": "",
+		"body": "Timmy: Last i saw her she when upstairs, looking for Tom\nJohn: Ill go look for her, are u safe to stay here till i found them.\nTimmy: Yes im safe here",
+		"position": {
+			"x": 644,
+			"y": 222
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Older Brother",
+		"tags": "",
+		"body": "Timmy: We couldnt find him, maybe he went outside to make sure the back gate was locked.\njohn: Ill go look for him out the back, are u safe to stay here till everything is sorted \nTimmy: yes its safe here ",
+		"position": {
+			"x": 1247,
+			"y": 205
+		},
+		"colorID": 0
+	}
+]

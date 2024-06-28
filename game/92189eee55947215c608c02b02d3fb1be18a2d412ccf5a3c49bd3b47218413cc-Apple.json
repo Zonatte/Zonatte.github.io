@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "John: Son your alive\nTimmy: Dad you came back to save us \nJohn: are u k,have u been bitten?\nTimmy: No i'm safe for now, thats why i hid downstairs. behind the boxes \n[[ Wheres your mother |Mother]]\n[[ Wheres your older Brother |Older Brother]]",
+		"position": {
+			"x": 301,
+			"y": 196
+		},
+		"colorID": 0
+	}
+]

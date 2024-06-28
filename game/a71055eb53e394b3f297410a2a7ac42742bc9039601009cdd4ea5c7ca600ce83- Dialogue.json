@@ -1,0 +1,32 @@
+[
+	{
+		"title": "start",
+		"tags": "",
+		"body": "Ring Ring\nJohn: Hey whats up\nJane: John how far away are u from getting home\nJohn: Ive just finished work, should be home in less then an hour.\nJane: hurry please, there are things trying to break in.\n[[ What do u mean by things? |Confused]]\n[[ Are u and the kids safe? |Worried]]",
+		"position": {
+			"x": 1928,
+			"y": 808
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Confused",
+		"tags": "",
+		"body": "Jane: They look like people,but arent acting normal\n:John: grab the gun and  shoot anyone who enters",
+		"position": {
+			"x": 1566,
+			"y": 632
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Worried",
+		"tags": "",
+		"body": "Jane: the kids where in the backyard last time i checked\nJohn: grab the gun and go find them now",
+		"position": {
+			"x": 2222,
+			"y": 656
+		},
+		"colorID": 0
+	}
+]

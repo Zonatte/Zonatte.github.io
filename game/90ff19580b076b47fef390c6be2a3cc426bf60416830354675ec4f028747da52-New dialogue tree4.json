@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Tom:Dad your alive\nJohn:God how are u alive? there where so many zombies out here. how come they didnt go for u \nTom: Dad ive been bitten, u have to shoot me \n[[ ok i will |Agreed]]\n[[I can't, how can u ask me to|no]]",
+		"position": {
+			"x": 301,
+			"y": 195
+		},
+		"colorID": 0
+	},
+	{
+		"title": "no",
+		"tags": "",
+		"body": "Tom: you have to, i dont wanna turn into one\nJohn: im your father how can u ask me to do this\nTom: if u dont ill end up a zombie \n[[ Im sorry i just cant |N]]\n[[ i wont, im sorry|NNN]]",
+		"position": {
+			"x": 509,
+			"y": 1
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Agreed",
+		"tags": "",
+		"body": "Tom:Dad u have to promise me u will keep Tommy and Mum Alive\nJohn: I will\n[[ Shoot Tom |yes]]\n[[  goodbye son, ill never forget u |answer]]",
+		"position": {
+			"x": 62,
+			"y": -9
+		},
+		"colorID": 0
+	},
+	{
+		"title": "yes",
+		"tags": "",
+		"body": "<<yes>>\nbye",
+		"position": {
+			"x": -178,
+			"y": -36
+		},
+		"colorID": 0
+	},
+	{
+		"title": "answer",
+		"tags": "",
+		"body": "<<yes>>\nBye",
+		"position": {
+			"x": 310,
+			"y": -221
+		},
+		"colorID": 0
+	},
+	{
+		"title": "N",
+		"tags": "",
+		"body": "<<no>>\nAhhhhhh",
+		"position": {
+			"x": 629,
+			"y": -219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NNN",
+		"tags": "",
+		"body": "<<no>>\nAhhhhh",
+		"position": {
+			"x": 849,
+			"y": -219
+		},
+		"colorID": 0
+	}
+]
