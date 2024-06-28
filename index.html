@@ -11,21 +11,30 @@
             display: flex; /* Use flexbox for centering */
             justify-content: center; /* Center content horizontally */
             align-items: center; /* Center content vertically */
+            flex-direction: column; /* Stack elements vertically */
             height: 100vh; /* Full height of viewport */
             background-color: #000; /* Optional: set a background color */
+            font-family: Arial, sans-serif; /* Optional: choose a font */
+            color: #fff; /* Optional: choose a text color */
         }
         .game-container {
             width: 1080px; /* Width of the game */
             height: 675px; /* Height of the game */
+            margin-top: 20px; /* Optional: adjust spacing */
         }
         iframe {
             width: 100%; /* Full width of the container */
             height: 100%; /* Full height of the container */
             border: none; /* Removes iframe border */
         }
+        h1 {
+            font-size: 2em; /* Adjust font size */
+            margin-bottom: 20px; /* Optional: adjust spacing */
+        }
     </style>
 </head>
 <body>
+    <h1>Happy Days</h1>
     <div class="game-container">
         <iframe src="game/index.html" frameborder="0"></iframe>
     </div>
