@@ -25,6 +25,10 @@
             width: 1080px;
             height: 675px;
             margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             position: relative; /* Ensure relative positioning for absolute controls */
         }
         iframe {
@@ -33,10 +37,11 @@
             border: none;
         }
         .game-controls {
-            position: absolute;
-            bottom: 10px; /* Adjust as per your layout */
-            width: 100%;
+            margin-top: 20px;
             text-align: center;
+        }
+        .game-controls p {
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -46,7 +51,7 @@
         <iframe src="game/index.html" frameborder="0"></iframe>
         <div class="game-controls">
             <p>Game Controls: <a href="#">Control 1</a>, <a href="#">Control 2</a>, <a href="#">Control 3</a></p>
-            <!-- Adjust the controls markup and styling as per your game's needs -->
+            <p>Additional Information or Text Below Controls</p>
         </div>
     </div>
 </body>
