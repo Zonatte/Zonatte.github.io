@@ -7,17 +7,27 @@
     <style>
         body {
             margin: 0;
-            overflow: hidden; /* Ensures the game stays within the viewport /
-            align: center;
+            overflow: hidden; /* Ensures the game stays within the viewport */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            height: 100vh; /* Full height of viewport */
+            background-color: #000; /* Optional: set a background color */
+        }
+        .game-container {
+            width: 1080px; /* Width of the game */
+            height: 675px; /* Height of the game */
         }
         iframe {
-            width: 100vw; / Full width of the viewport /
-            height: 100vh; / Full height of the viewport /
-            border: none; / Removes iframe border */
+            width: 100%; /* Full width of the container */
+            height: 100%; /* Full height of the container */
+            border: none; /* Removes iframe border */
         }
     </style>
 </head>
 <body>
-    <iframe src="game/index.html" width="1080" height="675" frameborder="0"></iframe>
+    <div class="game-container">
+        <iframe src="game/index.html" frameborder="0"></iframe>
+    </div>
 </body>
-</html> 
+</html>
