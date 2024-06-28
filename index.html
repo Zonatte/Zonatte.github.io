@@ -24,43 +24,17 @@
         .main-content {
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Align content in main-content */
-            width: 100%; /* Ensure full width */
-            max-width: 1200px; /* Limit maximum width */
-            padding: 0 20px; /* Add padding for better spacing */
         }
         .game-container {
-            width: 60%; /* Adjust width of game container */
+            width: 1080px;
             height: 675px;
-            position: relative;
             margin-top: 20px;
+            position: relative;
         }
         iframe {
             width: 100%;
             height: 100%;
             border: none;
-        }
-        .game-description {
-            width: 35%; /* Adjust width of description */
-            margin-right: 20px; /* Add spacing between game and description */
-            text-align: left; /* Align text to the left */
-        }
-        .game-description h2 {
-            font-size: 3em; /* Adjust heading size */
-            margin-bottom: 10px; /* Add spacing below heading */
-        }
-        .game-description p {
-            font-size: 1.2em; /* Adjust paragraph font size */
-            line-height: 1.5; /* Adjust line height for readability */
-        }
-        .family-photo {
-            width: 20%; /* Adjust width of family photo */
-            margin-left: 20px; /* Add spacing between game and family photo */
-        }
-        .family-photo img {
-            width: 100%; /* Ensure image fills its container */
-            height: auto;
-            border-radius: 8px; /* Optional: Add rounded corners */
         }
         .game-controls {
             margin-top: 20px;
@@ -74,8 +48,12 @@
 <body>
     <h1>Happy Days</h1>
     <div class="main-content">
-        <div class="game-description">
-            <h2>Game Description</h2>
-            <p>Happy Days is an exciting adventure game where players explore a whimsical world filled with challenges and puzzles. Join our protagonist on a journey to discover the secrets of happiness and overcome obstacles with y
-
-            
+        <div class="game-container">
+            <iframe src="game/index.html" frameborder="0"></iframe>
+        </div>
+    </div>
+    <div class="game-controls">
+        <p>Game Controls: <a href="#">Control 1</a>, <a href="#">Control 2</a>, <a href="#">Control 3</a></p>
+    </div>
+</body>
+</html>
