@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded GDevelop Game</title>
+    <title>Zombie Apocalypse: Home Defense</title>
     <style>
         html, body {
             height: 100%;
@@ -24,17 +24,43 @@
         .main-content {
             display: flex;
             align-items: center;
+            justify-content: space-between; /* Align content in main-content */
+            width: 100%; /* Ensure full width */
+            max-width: 1200px; /* Limit maximum width */
+            padding: 0 20px; /* Add padding for better spacing */
+        }
+        .game-description {
+            width: 35%; /* Adjust width of description */
+            margin-right: 20px; /* Add spacing between game and description */
+            text-align: left; /* Align text to the left */
+        }
+        .game-description h2 {
+            font-size: 3em; /* Adjust heading size */
+            margin-bottom: 10px; /* Add spacing below heading */
+        }
+        .game-description p {
+            font-size: 1.2em; /* Adjust paragraph font size */
+            line-height: 1.5; /* Adjust line height for readability */
         }
         .game-container {
-            width: 1080px;
+            width: 60%; /* Adjust width of game container */
             height: 675px;
-            margin-top: 20px;
             position: relative;
+            margin-top: 20px;
         }
         iframe {
             width: 100%;
             height: 100%;
             border: none;
+        }
+        .family-photo {
+            width: 20%; /* Adjust width of family photo */
+            margin-left: 20px; /* Add spacing between game and family photo */
+        }
+        .family-photo img {
+            width: 100%; /* Ensure image fills its container */
+            height: auto;
+            border-radius: 8px; /* Optional: Add rounded corners */
         }
         .game-controls {
             margin-top: 20px;
@@ -46,10 +72,19 @@
     </style>
 </head>
 <body>
-    <h1>Happy Days</h1>
+    <h1>Zombie Apocalypse: Home Defense</h1>
     <div class="main-content">
+        <div class="game-description">
+            <h2>Game Description</h2>
+            <p>Amidst the chaos of a zombie outbreak, you play as John, a loving father who returns home from work to find his family under attack. Armed with whatever he can find, John must navigate through his once peaceful home, now infested with the undead.</p>
+            <p>As you explore room by room, you'll encounter terrifying zombies hungry for flesh. Use your wit and resourcefulness to find weapons, barricade doors, and protect your family at all costs. Time is running out, and every decision could mean life or death.</p>
+            <p>Will John be able to save his family and survive the night in this intense battle against the zombie horde?</p>
+        </div>
         <div class="game-container">
             <iframe src="game/index.html" frameborder="0"></iframe>
+        </div>
+        <div class="family-photo">
+            <img src="happy-family.jpg" alt="Happy Family">
         </div>
     </div>
     <div class="game-controls">
@@ -57,3 +92,4 @@
     </div>
 </body>
 </html>
+
