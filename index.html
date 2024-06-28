@@ -25,11 +25,18 @@
             width: 1080px;
             height: 675px;
             margin-top: 20px;
+            position: relative; /* Ensure relative positioning for absolute controls */
         }
         iframe {
             width: 100%;
             height: 100%;
             border: none;
+        }
+        .game-controls {
+            position: absolute;
+            bottom: 10px; /* Adjust as per your layout */
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
@@ -37,6 +44,10 @@
     <h1>Happy Days</h1>
     <div class="game-container">
         <iframe src="game/index.html" frameborder="0"></iframe>
+        <div class="game-controls">
+            <p>Game Controls: <a href="#">Control 1</a>, <a href="#">Control 2</a>, <a href="#">Control 3</a></p>
+            <!-- Adjust the controls markup and styling as per your game's needs -->
+        </div>
     </div>
 </body>
 </html>
