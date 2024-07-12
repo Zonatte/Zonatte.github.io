@@ -36,6 +36,11 @@ gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects2= [];
 gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects3= [];
 gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects4= [];
 gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects5= [];
+gdjs.Ground_32FloorCode.GDup_9595doorObjects1= [];
+gdjs.Ground_32FloorCode.GDup_9595doorObjects2= [];
+gdjs.Ground_32FloorCode.GDup_9595doorObjects3= [];
+gdjs.Ground_32FloorCode.GDup_9595doorObjects4= [];
+gdjs.Ground_32FloorCode.GDup_9595doorObjects5= [];
 gdjs.Ground_32FloorCode.GDPlayerObjects1= [];
 gdjs.Ground_32FloorCode.GDPlayerObjects2= [];
 gdjs.Ground_32FloorCode.GDPlayerObjects3= [];
@@ -223,7 +228,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16306252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16259612);
 }
 }
 if (isConditionTrue_0) {
@@ -250,7 +255,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDBulletObjects2Objects, gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDZombieObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16308284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16261644);
 }
 }
 if (isConditionTrue_0) {
@@ -281,7 +286,7 @@ gdjs.Ground_32FloorCode.forEachTemporary3 = gdjs.Ground_32FloorCode.GDZombieObje
 gdjs.Ground_32FloorCode.GDZombieObjects3.push(gdjs.Ground_32FloorCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16309116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16262476);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDHealthBarObjects3Objects, (( gdjs.Ground_32FloorCode.GDZombieObjects3.length === 0 ) ? 0 :gdjs.Ground_32FloorCode.GDZombieObjects3[0].getPointX("HealthBar")), (( gdjs.Ground_32FloorCode.GDZombieObjects3.length === 0 ) ? 0 :gdjs.Ground_32FloorCode.GDZombieObjects3[0].getPointY("HealthBar")) - 15, "");
@@ -583,7 +588,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects3Objects, gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDZombieObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16293780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16247140);
 }
 }
 if (isConditionTrue_0) {
@@ -629,7 +634,7 @@ gdjs.Ground_32FloorCode.forEachTemporary3 = gdjs.Ground_32FloorCode.GDPlayerObje
 gdjs.Ground_32FloorCode.GDPlayerObjects3.push(gdjs.Ground_32FloorCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16295612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16248972);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerHealthObjects3Objects, (( gdjs.Ground_32FloorCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.Ground_32FloorCode.GDPlayerObjects3[0].getPointX("PlayerHealth")), (( gdjs.Ground_32FloorCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.Ground_32FloorCode.GDPlayerObjects3[0].getPointY("PlayerHealth")) - 15, "");
@@ -714,8 +719,10 @@ if (isConditionTrue_0) {
 
 };gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.Ground_32FloorCode.GDPlayerObjects2});
 gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDBassment_95959595doorObjects2Objects = Hashtable.newFrom({"Bassment_door": gdjs.Ground_32FloorCode.GDBassment_9595doorObjects2});
+gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.Ground_32FloorCode.GDPlayerObjects2});
+gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDBackyardObjects2Objects = Hashtable.newFrom({"Backyard": gdjs.Ground_32FloorCode.GDBackyardObjects2});
 gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.Ground_32FloorCode.GDPlayerObjects1});
-gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDBackyardObjects1Objects = Hashtable.newFrom({"Backyard": gdjs.Ground_32FloorCode.GDBackyardObjects1});
+gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDup_95959595doorObjects1Objects = Hashtable.newFrom({"up_door": gdjs.Ground_32FloorCode.GDup_9595doorObjects1});
 gdjs.Ground_32FloorCode.eventsList14 = function(runtimeScene) {
 
 {
@@ -747,24 +754,50 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Backyard"), gdjs.Ground_32FloorCode.GDBackyardObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Ground_32FloorCode.GDPlayerObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Backyard"), gdjs.Ground_32FloorCode.GDBackyardObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Ground_32FloorCode.GDPlayerObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects1Objects, gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDBackyardObjects1Objects, false, runtimeScene, false);
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects2Objects, gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDBackyardObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.Ground_32FloorCode.GDPlayerObjects1 */
+/* Reuse gdjs.Ground_32FloorCode.GDPlayerObjects2 */
 {gdjs.evtTools.sound.playSound(runtimeScene, "doorOpen_2.ogg", false, 100, 1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Backyard", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.Ground_32FloorCode.GDPlayerObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Ground_32FloorCode.GDPlayerObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Ground_32FloorCode.GDPlayerObjects1);
+gdjs.copyArray(runtimeScene.getObjects("up_door"), gdjs.Ground_32FloorCode.GDup_9595doorObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDPlayerObjects1Objects, gdjs.Ground_32FloorCode.mapOfGDgdjs_9546Ground_959532FloorCode_9546GDup_95959595doorObjects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
+}
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Ground_32FloorCode.GDPlayerObjects1 */
+{gdjs.evtTools.sound.playSound(runtimeScene, "doorOpen_2.ogg", false, 100, 1);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "upstaris", false);
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.Ground_32FloorCode.GDPlayerObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Ground_32FloorCode.GDPlayerObjects1[0].getVariables()).getFromIndex(0))));
 }}
 
@@ -965,6 +998,11 @@ gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects2.length = 0;
 gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects3.length = 0;
 gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects4.length = 0;
 gdjs.Ground_32FloorCode.GDNewTiledSpriteObjects5.length = 0;
+gdjs.Ground_32FloorCode.GDup_9595doorObjects1.length = 0;
+gdjs.Ground_32FloorCode.GDup_9595doorObjects2.length = 0;
+gdjs.Ground_32FloorCode.GDup_9595doorObjects3.length = 0;
+gdjs.Ground_32FloorCode.GDup_9595doorObjects4.length = 0;
+gdjs.Ground_32FloorCode.GDup_9595doorObjects5.length = 0;
 gdjs.Ground_32FloorCode.GDPlayerObjects1.length = 0;
 gdjs.Ground_32FloorCode.GDPlayerObjects2.length = 0;
 gdjs.Ground_32FloorCode.GDPlayerObjects3.length = 0;

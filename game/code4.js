@@ -238,7 +238,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.BassmeantCode.mapOfGDgdjs_9546BassmeantCode_9546GDPlayerObjects3Objects, gdjs.BassmeantCode.mapOfGDgdjs_9546BassmeantCode_9546GDZombieObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16464596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16417956);
 }
 }
 if (isConditionTrue_0) {
@@ -284,7 +284,7 @@ gdjs.BassmeantCode.forEachTemporary3 = gdjs.BassmeantCode.GDPlayerObjects2[gdjs.
 gdjs.BassmeantCode.GDPlayerObjects3.push(gdjs.BassmeantCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16470004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16423364);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.BassmeantCode.mapOfGDgdjs_9546BassmeantCode_9546GDPlayerHealthObjects3Objects, (( gdjs.BassmeantCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.BassmeantCode.GDPlayerObjects3[0].getPointX("PlayerHealth")), (( gdjs.BassmeantCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.BassmeantCode.GDPlayerObjects3[0].getPointY("PlayerHealth")) - 15, "");
@@ -448,7 +448,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16482020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16435380);
 }
 }
 if (isConditionTrue_0) {
@@ -466,7 +466,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16482684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16436044);
 }
 }
 if (isConditionTrue_0) {
@@ -713,7 +713,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16485644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16439004);
 }
 }
 if (isConditionTrue_0) {
@@ -740,7 +740,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.BassmeantCode.mapOfGDgdjs_9546BassmeantCode_9546GDBulletObjects2Objects, gdjs.BassmeantCode.mapOfGDgdjs_9546BassmeantCode_9546GDZombieObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16486700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16440060);
 }
 }
 if (isConditionTrue_0) {
@@ -771,7 +771,7 @@ gdjs.BassmeantCode.forEachTemporary3 = gdjs.BassmeantCode.GDZombieObjects2[gdjs.
 gdjs.BassmeantCode.GDZombieObjects3.push(gdjs.BassmeantCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16488052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16441412);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.BassmeantCode.mapOfGDgdjs_9546BassmeantCode_9546GDHealthBarObjects3Objects, (( gdjs.BassmeantCode.GDZombieObjects3.length === 0 ) ? 0 :gdjs.BassmeantCode.GDZombieObjects3[0].getPointX("HealthBar")), (( gdjs.BassmeantCode.GDZombieObjects3.length === 0 ) ? 0 :gdjs.BassmeantCode.GDZombieObjects3[0].getPointY("HealthBar")) - 15, "");

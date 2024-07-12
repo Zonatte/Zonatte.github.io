@@ -161,7 +161,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16966844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11023828);
 }
 }
 if (isConditionTrue_0) {
@@ -179,7 +179,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16967516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11024932);
 }
 }
 if (isConditionTrue_0) {
@@ -209,9 +209,9 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.dialogueTree.hasSelectedOptionChanged();
 if (isConditionTrue_0) {
-/* Reuse gdjs.Jane_32EndingCode.GDOptionsObjects2 */
-{for(var i = 0, len = gdjs.Jane_32EndingCode.GDOptionsObjects2.length ;i < len;++i) {
-    gdjs.Jane_32EndingCode.GDOptionsObjects2[i].getBehavior("Text").setText(gdjs.dialogueTree.getLineOptionsTextVertical("-> "));
+/* Reuse gdjs.Jane_32EndingCode.GDOptionsObjects1 */
+{for(var i = 0, len = gdjs.Jane_32EndingCode.GDOptionsObjects1.length ;i < len;++i) {
+    gdjs.Jane_32EndingCode.GDOptionsObjects1[i].getBehavior("Text").setText(gdjs.dialogueTree.getLineOptionsTextVertical("-> "));
 }
 }}
 
@@ -245,11 +245,21 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.Jane_32EndingCode.GDOpti
 
 
 let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.dialogueTree.isRunning());
+isConditionTrue_0 = gdjs.dialogueTree.isRunning();
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Dialogue"), gdjs.Jane_32EndingCode.GDDialogueObjects2);
@@ -305,42 +315,14 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.dialogueTree.isDialogueLineType("options");
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.Jane_32EndingCode.GDOptionsObjects2);
-{for(var i = 0, len = gdjs.Jane_32EndingCode.GDOptionsObjects2.length ;i < len;++i) {
-    gdjs.Jane_32EndingCode.GDOptionsObjects2[i].hide(false);
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.Jane_32EndingCode.GDOptionsObjects1);
+{for(var i = 0, len = gdjs.Jane_32EndingCode.GDOptionsObjects1.length ;i < len;++i) {
+    gdjs.Jane_32EndingCode.GDOptionsObjects1[i].hide(false);
 }
 }
 { //Subevents
 gdjs.Jane_32EndingCode.eventsList1(runtimeScene);} //End of subevents
 }
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
 
 }
 

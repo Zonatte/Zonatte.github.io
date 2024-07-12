@@ -161,7 +161,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16945900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16899260);
 }
 }
 if (isConditionTrue_0) {
@@ -179,7 +179,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16947364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16900724);
 }
 }
 if (isConditionTrue_0) {
@@ -253,7 +253,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.dialogueTree.isRunning());
+isConditionTrue_0 = gdjs.dialogueTree.isRunning();
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Dialogue"), gdjs.John_32EndingCode.GDDialogueObjects2);
